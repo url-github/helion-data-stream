@@ -28,7 +28,7 @@ for response in response_json['response']:
 
     all_passes.append(current_pass)
 
-export_file = "export_file.csv"
+export_file = "export_file_rest_api.csv"
 
 with open(export_file, 'w') as fp:
 	csvw = csv.writer(fp, delimiter='|')
